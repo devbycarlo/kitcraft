@@ -1,0 +1,23 @@
+{
+  "$schema": "./node_modules/wrangler/config-schema.json",
+  "name": "kitcraft",
+  "compatibility_date": "2026-09-08",
+  "compatibility_flags": ["nodejs_compat"],
+  "pages_build_output_dir": "./public",
+  "observability": {
+    "enabled": true
+  },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "kitcraft-wp",
+      "database_id": "b8a94d29-dd2d-4446-8fe0-2d8fdbc2ec73"
+    }
+  ],
+  "r2_buckets": [
+    {
+      "binding": "STORAGE",
+      "bucket_name": "kitcraft-wp-storage"
+    }
+  ]
+}
