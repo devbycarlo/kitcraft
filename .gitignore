@@ -13,3 +13,6 @@ CLAUDE.md
 
 # Generated public build output; wp/ remains site-owned.
 wp-public/
+
+# Local Netlify folder
+.netlify
